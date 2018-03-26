@@ -81,16 +81,16 @@
 
 
 
-<meta name="description">
+<meta name="description" content="Life Is Nothing But Never-Ending Decisions!">
 <meta property="og:type" content="website">
 <meta property="og:title" content="categories">
 <meta property="og:url" content="https://Vivian5T.github.io/categories/index.html">
 <meta property="og:site_name" content="5TONG">
-<meta property="og:description">
-<meta property="og:updated_time" content="2016-06-11T03:29:38.000Z">
+<meta property="og:description" content="Life Is Nothing But Never-Ending Decisions!">
+<meta property="og:updated_time" content="2018-03-25T23:19:57.683Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="categories">
-<meta name="twitter:description">
+<meta name="twitter:description" content="Life Is Nothing But Never-Ending Decisions!">
 
 
 
@@ -429,7 +429,7 @@
 <ul>
 <li>一种是把表情作为输入方案的一种选择，需要的时候像切换繁体和简体一样切换到表情输入；</li>
 <li>另一种是将表情加入到拼音方案中，但是这种方式每次都出来一堆表情，而且没法实现词频的调整，所以最后选择的是将表情作为字典来使用的方案，<blockquote>
-<p>基于网友 @ lembacon 的表情文件制作了一份字典文件（luna_pinyin.emoji.dict.yaml，已包含在文章后的下载中），需要注意的是新的表情字典，需要在扩展字典的主文件（luna_pinyin.extended.dict.yaml）中添加一段代码：<code>- luna\_pinyin.emoji</code>。 </p>
+<p>基于网友 @ lembacon 的表情文件制作了一份字典文件（luna_pinyin.emoji.dict.yaml，已包含在文章后的下载中），需要注意的是新的表情字典，需要在扩展字典的主文件（luna_pinyin.extended.dict.yaml）中添加一段代码：<code>- luna\_pinyin.emoji</code>。</p>
 </blockquote>
 </li>
 </ul>
@@ -437,7 +437,7 @@
 <pre><code>name: luna_pinyin.extended
 version: &quot;2014.10.28&quot;
 sort: by_weight
-use_preset_vocabulary: 
+use_preset_vocabulary:
 </code></pre><p>此處爲明月拼音擴充詞庫（基本）默認鏈接載入的詞庫，有朙月拼音官方詞庫、明月拼音擴充詞庫（漢語大詞典）、明月拼音擴充詞庫（詩詞）、明月拼音擴充詞庫（含西文的詞彙）。如果不需要加載某个詞庫請將其用「#」註釋掉。</p>
 <blockquote>
 <p>雙拼不支持 luna_pinyin.cn_en 詞庫，請用戶手動禁用。</p>
@@ -463,34 +463,34 @@ use_preset_vocabulary:
     - Control+grave
 
 menu:
-  page_size: 
+  page_size:
 
 schema_list:
     - schema: luna_pinyin_simp
     - schema: luna_pinyin
-    - schema: luna_pinyin_fluency  
+    - schema: luna_pinyin_fluency
     - schema: wubi_pinyin          # 五笔拼音混合輸入
-</code></pre><h2 id="squirrel-custom-yaml"><a href="#squirrel-custom-yaml" class="headerlink" title="squirrel.custom.yaml"></a>squirrel.custom.yaml</h2><p>输入法外观的设定是在梁海方案的基础上修改的，并参照了 10.11 El Capitan 输入法的配色和字体。候选词条中如果出现生僻字无法显示（显示为框问号），可以在方案配色的字体指向上多加一个「 花园明朝」字体。 </p>
-<pre><code>patch: show_notifications_when: appropriate # 状态通知，适当(appropriate)，开（always）关（never） 
-style: 
-    color_scheme: apathy 
-preset_color_schemes: 
-    apathy: 
-    name: &quot;冷漠 / Apathy&quot; 
-    author: &quot;LIANG Hai &quot; 
-    horizontal: # 水平排列 
-    inline_preedit: #单行显示，false双行显示 
-    candidate_format: &quot;%c\u2005%@\u2005&quot; # 编号 %c 和候选词 %@ 前后的空间 
-    corner_radius: #候选条圆角 
-    border_height: border_width: 
-    back_color: 0xFFFFFF #候选条背景色 
-    font_face: &quot;PingFangSC-Regular,H-SiuNiu&quot; #候选词字体 
-    font_point: #候选字词大小 
-    text_color: 0x424242 #高亮选中词颜色 
-    label_font_face: &quot;PingFangSC-Light&quot; #候选词编号字体 
-    label_font_point: #候选编号大小 
-    hilited_candidate_text_color: 0xEE6E00 #候选文字颜色 
-    hilited_candidate_back_color: 0xFFF0E4 #候选文字背景色 
+</code></pre><h2 id="squirrel-custom-yaml"><a href="#squirrel-custom-yaml" class="headerlink" title="squirrel.custom.yaml"></a>squirrel.custom.yaml</h2><p>输入法外观的设定是在梁海方案的基础上修改的，并参照了 10.11 El Capitan 输入法的配色和字体。候选词条中如果出现生僻字无法显示（显示为框问号），可以在方案配色的字体指向上多加一个「 花园明朝」字体。</p>
+<pre><code>patch: show_notifications_when: appropriate # 状态通知，适当(appropriate)，开（always）关（never）
+style:
+    color_scheme: apathy
+preset_color_schemes:
+    apathy:
+    name: &quot;冷漠 / Apathy&quot;
+    author: &quot;LIANG Hai &quot;
+    horizontal: # 水平排列
+    inline_preedit: #单行显示，false双行显示
+    candidate_format: &quot;%c\u2005%@\u2005&quot; # 编号 %c 和候选词 %@ 前后的空间
+    corner_radius: #候选条圆角
+    border_height: border_width:
+    back_color: 0xFFFFFF #候选条背景色
+    font_face: &quot;PingFangSC-Regular,H-SiuNiu&quot; #候选词字体
+    font_point: #候选字词大小
+    text_color: 0x424242 #高亮选中词颜色
+    label_font_face: &quot;PingFangSC-Light&quot; #候选词编号字体
+    label_font_point: #候选编号大小
+    hilited_candidate_text_color: 0xEE6E00 #候选文字颜色
+    hilited_candidate_back_color: 0xFFF0E4 #候选文字背景色
     comment_text_color: 0x999999 #拼音等提示文字颜色
 </code></pre><blockquote>
 <p>外观设置中指向了 El Capitan 最新的字体「苹方」和「 花园明朝」，后者需要单独下载安装。</p>
@@ -538,7 +538,7 @@ preset_color_schemes:
       
         <div class="post-tags">
           
-            <a href="/tags/输入法-APP-配置/" rel="tag"># 输入法, APP, 配置</a>
+            <a href="/tags/Productive-tools/" rel="tag"># Productive tools</a>
           
         </div>
       
@@ -649,7 +649,7 @@ preset_color_schemes:
                 alt="Vivian5T" />
             
               <p class="site-author-name" itemprop="name">Vivian5T</p>
-              <p class="site-description motion-element" itemprop="description"></p>
+              <p class="site-description motion-element" itemprop="description">Life Is Nothing But Never-Ending Decisions!</p>
           </div>
 
           <nav class="site-state motion-element">
@@ -670,7 +670,7 @@ preset_color_schemes:
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">10</span>
+                  <span class="site-state-item-count">5</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
@@ -680,10 +680,10 @@ preset_color_schemes:
               
               
               <div class="site-state-item site-state-tags">
-                
+                <a href="/tags/index.html">
                   <span class="site-state-item-count">14</span>
                   <span class="site-state-item-name">标签</span>
-                
+                </a>
               </div>
             
 
@@ -1303,6 +1303,8 @@ preset_color_schemes:
   
 
   
+  <script type="text/javascript" src="/js/src/exturl.js?v=6.0.0"></script>
+
 
 </body>
 </html>
